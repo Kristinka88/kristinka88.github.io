@@ -1,2 +1,2 @@
 # kristinka88.github.io
-full stack website
+Excersizing websites ,learning web dev 
