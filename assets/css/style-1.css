@@ -28,7 +28,7 @@ h1 {
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
- 
+ color: darkorchid;
 }
 
 h2 {
@@ -37,6 +37,7 @@ h2 {
     font-family: sans-serif;
     line-height: 1.6;
      margin-bottom: 20px;
+     color: red;
 }
 
 h3 {

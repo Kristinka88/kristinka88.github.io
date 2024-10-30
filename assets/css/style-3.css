@@ -44,7 +44,9 @@ input, button, textarea, select { font: inherit }
 --fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
 }
    
-body { font-family: var(--global-font);}
+body { font-family: var(--global-font);
+    background-color: aqua;
+}
 
 /* Desktops */
 @media  (min-width: 768px) {
@@ -61,14 +63,42 @@ h2 {
     letter-spacing: -2px;
     font-size: var(--fs-xxl); 
     margin-bottom: 4px;
+    color: aqua;
 }
 
 h3 {
     font-size: var(--fs-lg);
     margin-bottom: 4px;
+    background-color: aqua;
 }
 
 p {
     font-size: var(--fs-md);
     margin-bottom: 16px;
+    color: blue;
+}
+
+.section-1 {
+
+    background-color: blue;
+}
+
+.section-2 {
+
+    background-color: green;
+}
+
+.section-3 {
+
+    background-color: yellow;
+}
+
+.section-4 {
+
+    background-color: red;
+}
+
+.section-5 {
+
+    background-color: purple;
 }
