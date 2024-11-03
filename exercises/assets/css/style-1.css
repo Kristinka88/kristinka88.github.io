@@ -23,7 +23,7 @@ input, button, textarea, select { font: inherit }
     body { padding: 8% 5% }
 }
 
-body {background-color: purple;}
+body { background-color: antiquewhite; }
 
 h1 {
     font-size: 84px;
