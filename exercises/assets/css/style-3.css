@@ -260,9 +260,10 @@ section { padding: 4% 20% }
 
 
 }
-   
+
+body { background-color: lightblue; }
+
 body { font-family: var(--global-font);
-    body { background-color: lightblue; }
 }
 
 /* Desktops */
