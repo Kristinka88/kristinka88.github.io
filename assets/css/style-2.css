@@ -12,6 +12,17 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+}
+                        
+/* Mobiles */
+@media (max-width: 767px) {
+    body { padding: 8% 5% }
+}
+
+
 h1 {
     font-size: 84px;
     margin-bottom: 64px;
