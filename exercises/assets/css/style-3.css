@@ -261,7 +261,7 @@ section { padding: 4% 20% }
 
 }
 
-body { background-color: lightblue; }
+
 
 body { font-family: var(--global-font);
 }
@@ -311,9 +311,12 @@ p {
     background-color: lightblue;
 }
 
-.section-4 h2 , .section-4 p { color: white;
+.section-4 {
     background-color: darkblue;
 
+}
+.section-4 h2 , .section-4 p { color: white;
+    
    
 }
 
