@@ -298,27 +298,28 @@ p {
 
 .section-1 {
 
-    background-color: var();
+    background-color: lemonchiffon;
 }
 
 .section-2 {
 
-    background-color: var();
+    background-color: lightgreen;
 }
 
 .section-3 {
 
-    background-color: var();
+    background-color: lightblue;
 }
 
-.section-4 h2 , .section-4 p { color: blue;
+.section-4 h2 , .section-4 p { color: white;
+    background-color: darkblue;
 
    
 }
 
 .section-5 {
 
-    background-color: var(purple);
+    background-color: lightcoral;
 }
 
 a { color: blue; }
