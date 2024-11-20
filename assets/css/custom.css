@@ -1,3 +1,46 @@
+.logo-container {
+    text-align: center; /* Centers the logo */
+    padding: 20px; /* Adds padding around the logo */
+}
+
+.logo {
+    max-width: 300px; /* Adjust the size of the logo */
+    height: auto; /* Maintains aspect ratio */
+}
+/* Optional: Style the profile image */
+.profile-image img {
+    width: 400px; /* Adjust the size */
+    height: 400px; /* Adjust the size */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area well */
+    margin-top: 20px; /* Adds space between text and image */
+}
+
+/* Three-column flexbox grid adjustments */
+.flex-cols-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;  /* Adjust space between the columns */
+}
+
+/* Ensure that images are proportionate and fill space nicely */
+.flex-cols-3 .col-3 img {
+    width: 100%;  /* Make images responsive */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 8px;  /* Optional: Add rounded corners to images */
+}
+
+/* Adjust section titles */
+section.theme-dark h2 {
+    font-size: 2.5rem;  /* Increase section heading size */
+    margin-bottom: 15px;  /* Space below the title */
+}
+
+/* Optional: Adjust the text inside the section */
+section.theme-dark .col-1 p {
+    line-height: 1.6;  /* Improve line height for readability */
+    margin-bottom: 20px;  /* Space between paragraphs */
+}
 
 nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
 

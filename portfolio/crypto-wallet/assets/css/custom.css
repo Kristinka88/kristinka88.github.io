@@ -1,6 +1,16 @@
 /* Add your custom CSS here */
-.section-selector-1 { background-color: var(--trend-700) }
-.section-selector-2 { background-color: var(--trend-800) }
-.section-selector-1 { background-color: var(--trend-800) }
-.section-selector-2 { background-color: var(--trend-800) }
-.section-selector-3 { background-color: var(--trend-700) }
+
+/* Section background colors */
+.section-selector-1 { background-color: var(--trend-800); }
+.section-selector-2 { background-color: var(--trend-800); }
+.section-selector-3 { background-color: var(--trend-700); }
+.section-selector-4.theme-dark { background-color: var(--trend-800); }
+
+/* Section 4 Text and Icon Colors */
+.section-selector-4 .col-3 p, 
+.section-selector-4 .col-3 li, 
+.section-selector-4 .col-3 h3, 
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon {
+    color: var(--blue-300);
+}
+
