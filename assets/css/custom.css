@@ -4,9 +4,16 @@
 }
 
 .logo {
-    max-width: 300px; /* Adjust the size of the logo */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 30%;   /* Makes the logo responsive */
+    height: auto;      
 }
+
+/* Make the logo responsive */
+nav .brand img {
+    max-width: 30%;  /* Makes the logo width responsive */
+    height: auto;     /* Maintains aspect ratio */
+}
+
 /* Optional: Style the profile image */
 .profile-image img {
     width: 400px; /* Adjust the size */
