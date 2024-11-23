@@ -4,133 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kristina Simovic | Web Designer and Developer</title>
-    <meta name="description" content="I create digital experiences to promote products, services, and events.">
-
-	<!-- Preload large image -->
-
-	<!-- Stylesheets -->
-    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+    <title>Kristina Simovic | Web Developer Portfolio</title>
+    <meta name="description" content="Showcasing innovative and user-friendly web development projects by Kristina Simovic.">
     <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPWR86ZCQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	<!-- Google Fonts -->
-
-    <!-- Font Awesome 6 icons. Delete if not using. -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-        header .col-text h2 { line-height: 1.8 }
-        .col-1 > h3 { line-height: 1.8 } 
-    </style>
-
+  gtag('config', 'G-TPWR86ZCQF');
+</script>
 </head>
 
-
 <body>
-    
-    <!-- menu and 'hero block' header -->
-    <nav class="theme-dark">
+    <!-- Navigation Bar -->
+    <nav class="theme-modern">
         <div class="container-menu">
             <a href="#" class="brand">
-                <!-- Update the logo source -->
-                <img src="assets/img/logo.webp" alt="Kristina Simovic | Web Designer" class="logo">
+                <img src="assets/img/logo.webp" alt="Kristina Simovic Logo" class="logo">
             </a>
-        
-            <div class="container-menu-links">
-                <div class="nav-toggle" id="nav-toggle-btn">
-                    <div class="bar-1"></div>
-                    <div class="bar-2"></div>
-                    <div class="bar-3"></div>
-                </div>
-        
-                <ul class="links-wrapper">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="portfolio/index.html">Portfolio</a></li>
-                    <li><a href="store/index.html">Store</a></li>
-                    <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
-                </ul>
-            </div>
+            <ul class="menu-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="store/index.html">Store</a></li>
+                <li><a href="contact/index.html" class="btn btn-primary">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    
-    <!-- header starts here -->
-    <header class="theme-dark cols-2-half text-center-mobile">
-        <div class="col-2 col-text">
-            <div class="badge">WELCOME</div>
-            <h1>Kristina Simovic</h1>
-            <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
 
-            <div class="container-btn">
-                <a href="portfolio/index.html" class="btn btn-solid btn-soft"><span>View my work</span><i class="fa-regular fa-folder-open"></i></a><a href="contact/index.html" class="btn btn-outline btn-soft"><span>Get in touch</span><i class="fa-regular fa-envelope"></i></a>
+    <!-- Header -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1><i>Kristina Simovic</i></h1>
+            <p>I am a web developer who concentrates on devising modern, user-centered web solutions that would not only elevate brands but also create seamless and meaningful digital experiences. My expertise is the combination of high-edge development techniques with intuitive design principles; that is how ideas get converted into appealing, functional, and highly effective digital products.</p>
+
+            <p>Whether it's a design of sleek e-commerce, development of interactive web applications, or improvement of an existing website, my aim is to provide impactful solutions with tangible results for businesses. I focus on simplicity, functionality, and innovation to help brands differentiate themselves in the digital landscape while simultaneously giving users an exceptional online experience.</p>
+            <div class="hero-buttons">
+                <a href="portfolio/index.html" class="btn btn-secondary">View My Work</a>
+                <a href="contact/index.html" class="btn btn-primary">Get In Touch</a>
             </div>
         </div>
-         <!-- Add your photo here -->
-         <div class="profile-image">
-            <img src="assets/img/ks.jpg" alt="Kristina Simovic Photo">
+        <div class="hero-image">
+            <img src="assets/img/ks.jpg" alt="Kristina Simovic">
         </div>
-       
-      
     </header>
-    <!-- header ends here -->
-    
-    <!-- main content with sections -->
+
+    <!-- Main Content -->
     <main>
-        <!-- section starts here -->
-        <section class="theme-dark section-selector-1 w-1356px">
-            <div class="col-1 text-center w-820px">
-                <h2>Recent projects</h2>
-                <h3>Below you can see some examples of my recent work. Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects. Have a project you would like to discuss? <a href="contact/index.html">Let's make something great together!</a> </h3>
-            </div>
-            <!-- Begin three-column flexbox grid -->
-            <div class="flex-cols-3 cols-gap-4">
-                <div class="col-3">
-                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
-                        <a href="portfolio/project-hero/index-1.html"><img src="assets/img/project-hero.png" alt="Hero block gallery project"></a>
-                    </figure>
-                    <h3>Hero Block Gallery</h3>
-                    <p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
-                    <a href="portfolio/project-hero/index-1.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+      <section class="My-Work">
+            <h2>Recent Projects</h2>
+            <p>Below you can see some examples of my recent work. Check out my complete portfolio of web design projects. Have a project you would like to discuss? Let's make something great together!</p>
+      </section>
+                
+            <section class="projects">
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="assets/img/project-crypto-wallet.jpg" alt="Crypto Wallet">
+                    <h3>Crypto Wallet</h3>
+                    <p>An innovative design showcasing split-screen layouts and duotone imagery.</p>
+                    <a href="portfolio/crypto-wallet/index.html" class="btn btn-secondary">View Project</a>
                 </div>
-                <div class="col-3">
-                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
-                        <a href="portfolio/fashion/index.html"><img src="assets/img/project-fashion.jpg" alt="Fashion retailer project"></a>
-                    </figure>
+                <div class="project-item">
+                    <img src="assets/img/project-fashion.jpg" alt="Fashion Retailer">
                     <h3>Snazzy Fashion</h3>
-                    <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-                    <a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+                    <p>A sleek web page design for fashion retailers, featuring background videos.</p>
+                    <a href="portfolio/fashion/index.html" class="btn btn-secondary">View Project</a>
                 </div>
-                <div class="col-3">
-                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
-                        <a href="portfolio/smoothies/index.html"><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></a>
-                    </figure>
+                <div class="project-item">
+                    <img src="assets/img/project-smoothie.jpg" alt="Smooth Smoothies">
                     <h3>Smooth Smoothies</h3>
-                    <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
-                    <a href="portfolio/smoothies/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+                    <p>Eye-catching layouts with tinted overlays and multi-column flexibility.</p>
+                    <a href="portfolio/smoothies/index.html" class="btn btn-secondary">View Project</a>
                 </div>
             </div>
-            <!-- End three-column flexbox grid -->
         </section>
-        <!-- section ends here -->
     </main>
 
-    <!-- footer -->
-    <footer class="theme-dark text-center-desktop text-center-mobile">
-        <h2>Kristina Simovic</h2>
-        <h3>Front-end designer and developer</h3>
-        <ul class="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="portfolio/index.html">Portfolio</a></li>
-            <li><a href="store/index.html">Store</a></li>
-            <li><a href="contact/index.html">Contact</a></li>
-        </ul>
-        <ul class="footer-icons">
-            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
-        </ul>
-        <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2>Kristina Simovic</h2>
+            <p>Front-end Designer and Developer</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="store/index.html">Store</a></li>
+                <li><a href="contact/index.html">Contact</a></li>
+            </ul>
+            <ul class="footer-icons">
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
     </footer>
-
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
-
 </body>
 </html>
