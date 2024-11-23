@@ -1,16 +1,18 @@
 /* Add your custom CSS here */
+body { font-family: 'Outfit', sans-serif; }
 
-/* Section background colors */
-.section-selector-1 { background-color: var(--trend-800); }
-.section-selector-2 { background-color: var(--trend-800); }
-.section-selector-3 { background-color: var(--trend-700); }
-.section-selector-4.theme-dark { background-color: var(--trend-800); }
+header h1 { font-size: var(--font-size-xxxl); }
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 > .badge span { color: var(--white-000) }
+.section-selector-1 > .badge span { background-color: var(--trend-700) }
+.section-selector-1 > .badge span { text-transform: uppercase; }
 
-/* Section 4 Text and Icon Colors */
-.section-selector-4 .col-3 p, 
-.section-selector-4 .col-3 li, 
-.section-selector-4 .col-3 h3, 
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon {
-    color: var(--blue-300);
-}
+.section-selector-2 { background-color: var(--trend-800) }
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
 
+.section-selector-4.theme-dark { background-color: var(--trend-700) }
+.section-selector-1 h2,
+.section-selector-2 h2,
+.section-selector-3 h2,
+.section-selector-4 h2 { font-weight:  400; }
