@@ -9,7 +9,7 @@ section.theme-dark   { background-color: #0f172a }
 
 footer.theme-dark   { background-color: #0f172a }
 
-header h1 { font-family: 'Playfair Display', serif;
+header h1  { font-family: 'Open Sans', sans-serif;
 color: #ff5c93;}
 
 header h2 { font-family: 'Playfair Display', serif;
@@ -281,3 +281,5 @@ body.dark-mode .project-item {
 .project-item {
     animation: fadeIn 0.5s ease-in-out;
 }
+
+ 
